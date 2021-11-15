@@ -8,6 +8,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
         System.out.println("hot-fix");
+        System.out.println("hot-fix 冲突");
         return "hello git";
     }
 }
