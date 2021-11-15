@@ -13,6 +13,7 @@ public class HelloController {
         System.out.println("hot-fix confilt2");
         System.out.println("master confilt2");
         System.out.println("push GitHub");
+         System.out.println("pull GitHub");
         return "hello git";
     }
 }
